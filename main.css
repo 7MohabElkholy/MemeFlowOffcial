@@ -1,0 +1,140 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #222831;
+  color: #eeeeee;
+  padding: 16px;
+}
+
+.header-text {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.header-app-text {
+  display: flex;
+  flex-direction: column;
+  /* max-width: 100px; */
+}
+
+.text-part1 {
+  align-self: flex-start;
+  font-size: 40px;
+  font-weight: 700;
+  letter-spacing: 1%;
+}
+
+.text-part2 {
+  align-self: flex-end;
+  font-size: 40px;
+  font-weight: 700;
+  letter-spacing: 1%;
+}
+
+.header-solagn {
+  max-width: fit-content;
+  display: flex;
+  gap: 16px;
+}
+
+.solagan-text {
+  font-weight: 500;
+  font-size: 20px;
+  letter-spacing: 5%;
+}
+
+.app-logo {
+  font-family: "Inter", sans-serif;
+  font-size: 40px;
+  font-weight: 700;
+}
+
+/* section 1 styles */
+
+.section-1 {
+  display: flex;
+  flex-direction: column;
+  padding: 16px;
+  gap: 32px;
+  background-color: #31363f;
+  color: #eeeeee;
+}
+
+.section1-text {
+  font-size: 24px;
+  font-weight: 500;
+  letter-spacing: 1%;
+}
+
+/* section 2 styles */
+
+.section-2 {
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+  padding: 16px;
+  background-color: #222831;
+  color: #eeeeee;
+}
+
+.section2-texts {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.section2-text-big {
+  font-size: 40px;
+  font-weight: 700;
+  letter-spacing: 5%;
+}
+
+.section2-text-small {
+  font-size: 24px;
+  letter-spacing: 1%;
+  font-weight: 500;
+}
+
+/* section 3 styles */
+
+.section-3 {
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+  padding: 16px;
+  background-color: #31363f;
+  color: #eeeeee;
+}
+
+.section3-text {
+  font-size: 32px;
+  font-weight: 700;
+  letter-spacing: 5%;
+}
+
+.button {
+  text-align: center;
+  text-decoration: none;
+  color: #eeeeee;
+  font-weight: 700;
+  letter-spacing: 5%;
+  font-size: 32px;
+  background-color: #76abae;
+  border-radius: 8px;
+  cursor: pointer;
+  padding: 8px;
+}
+
+.footer {
+  place-self: center;
+  font-size: 60px;
+}
